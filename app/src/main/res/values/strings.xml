@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nilai Mahasiswa</string>
+    <string name="list_title">List Mahasiswa</string>
+
+    <!--Menu-->
+    <string name="tambah_data">Tambah Data</string>
+    <string name="tentang">Tentang Aplikasi</string>
+
+    <!--Form-->
+    <string name="nama">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="nilai">Nilai</string>
+    <string name="simpan">Simpan</string>
+</resources>

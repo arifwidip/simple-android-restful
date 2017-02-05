@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_nama_label"
+        android:text="Nama: "
+        android:textColor="#333333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/list_nama"
+        android:layout_toRightOf="@+id/list_nama_label"
+        android:text="Nama"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_nim_label"
+        android:text="NIM: "
+        android:layout_below="@+id/list_nama"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/list_nim"
+        android:layout_toRightOf="@+id/list_nim_label"
+        android:layout_alignBottom="@+id/list_nim_label"
+        android:text="NIM"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_nilai_label"
+        android:text="Nilai: "
+        android:layout_below="@+id/list_nim"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/list_nilai"
+        android:layout_toRightOf="@+id/list_nilai_label"
+        android:layout_alignBottom="@+id/list_nilai_label"
+        android:text="Nilai"
+        android:textColor="#333333"/>
+
+</RelativeLayout>

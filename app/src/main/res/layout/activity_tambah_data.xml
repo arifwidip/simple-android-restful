@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    tools:context=".TambahData">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_tambah_data"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/textViewNIM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nim" />
+
+        <EditText
+            android:id="@+id/editTextNIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewNIM"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:background="@color/white"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textViewNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNIM"
+            android:layout_marginTop="30dp"
+            android:text="@string/nama" />
+
+        <EditText
+            android:id="@+id/editTextNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewNama"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:background="@color/white"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textViewNilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextNama"
+            android:layout_marginTop="30dp"
+            android:text="@string/nilai" />
+
+        <EditText
+            android:id="@+id/editTextNilai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewNilai"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:background="@color/white"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/buttonSimpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editTextNama"
+            android:layout_alignStart="@+id/editTextNama"
+            android:layout_below="@+id/editTextNilai"
+            android:layout_marginTop="30dp"
+            android:text="@string/simpan"/>
+
+    </RelativeLayout>
+
+</ScrollView>
